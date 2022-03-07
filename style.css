@@ -3,3 +3,73 @@
     padding: 0;
     margin:0;
 }
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+}
+
+.wrapper-content {
+    width: 100%;
+    height: calc(100% - 90px);
+    background-color: blue;
+    display: flex;
+}
+
+aside {
+    width: 230px;
+    background-color: rgb(5, 5, 5);
+}
+
+main {
+    width: calc(100% - 230px);
+    background-color: orange;
+    height: 100%;
+}
+
+nav.top {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 3);
+}
+
+.main-container {
+    height: 100%;
+    overflow-y: auto;
+    width: 100%;
+    padding-top: 90px;
+}
+
+img {
+    width:70%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.sidebar{
+padding-left: 10px;
+color: gray;
+padding-top: 20px;
+}
+
+.min-top {
+    padding-top: 15px;
+}
+
+.min-top p {
+height:5vh;
+vertical-align: middle;
+}
+
+hr {
+    color:white;
+}
