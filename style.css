@@ -33,11 +33,12 @@ main {
 }
 
 nav.top {
-    width: 100%;
+    width: calc(100% - 230px);
     height: 90px;
     position: fixed;
     z-index: 1000;
     background-color: rgba(0, 0, 0, 3);
+    
 }
 
 .main-container {
@@ -65,11 +66,30 @@ padding-top: 20px;
     padding-top: 15px;
 }
 
-.min-top p {
+.min-top p, li {
 height:5vh;
 vertical-align: middle;
 }
 
 hr {
     color:white;
+}
+
+.bottone {
+    position: relative;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    border-radius: 25px;
+    background-color: transparent;
+    padding: 13px 15px;
+    position: absolute;
+    right: 0px;
+    top: 20px
 }
