@@ -142,3 +142,52 @@ h5 {
     padding-bottom: 20px;
     font-size: 30px;
 }
+
+footer {
+    height: 90px;
+}
+
+.player-bar{
+    width: 100vw;
+}
+
+.left-foot {
+    width: calc(100% / 3);
+    float: left;
+}
+
+.left-foot img {
+    width: 10%;
+    float: left;
+}
+
+.min-test{
+    float: left;
+}
+
+.cent-foot-up{
+    width: calc(100% / 3);
+    float: left;
+}
+
+i {
+    font-size: 25px;
+    padding:10px 10px;
+}
+
+.bar-mus{
+    width:50%;
+    height: 4px;
+    background-color: white;
+    display: inline-block;
+}
+
+.bar-mus-trasc{
+    width: 20%;
+    height: 4px;
+    background-color: blue;
+}
+
+.cent-foot-down p {
+    display: inline-block;
+}
