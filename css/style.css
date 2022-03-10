@@ -143,7 +143,7 @@ button {
 }
 
 .foto img {
-    width: 13vw;
+    width: 12vw;
 }
 
 .menu-top {
@@ -151,7 +151,7 @@ button {
 }
 
 .foto, .circle {
-    width: 13vw;
+    width: 12vw;
     margin-right: 10px;
     text-align: center;
     margin-bottom: 10px;
@@ -313,7 +313,7 @@ span {
 }
 
 .circle img {
-    width: 13vw;
+    width: 12vw;
     border-radius: 100px;
 
 }
@@ -335,60 +335,10 @@ button:hover {
 }
 
 .mini-sim{
-    width: 50px;
+    width: 100px;
 }
 
 .mini-sim i {
     padding-bottom: 0;
 }
 
-@media screen and (max-width:576px) {
-    .menu-top ul {
-        flex-wrap: wrap
-    }
-
-    .foto, .circle, .foto img, .circle img {
-        width: 27vw;
-    }
-
-    .left-foot img {
-        width: 8vw;
-        height: 8vw;
-    }
-
-    i {
-        font-size: 13px;
-    }
-
-    .simboli i:nth-child(3){
-        font-size: 30px;
-    }
-
-    h4 {
-        font-size: 13px;
-    }
-
-    .mini-sim{
-        width: 20px;
-    }
-
-    .left-foot, .right-foot {
-        width: 30%;
-    }
-
-    .cent-foot{
-        width: 40%;
-    }
-
-    .bar-mus {
-        width: 60%;
-    }
-
-    .simbolini{
-        padding-right: 5px;
-    }
-
-    .mini-test{
-        padding-left: 5px;
-    }
-}
