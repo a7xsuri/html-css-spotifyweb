@@ -8,18 +8,6 @@
     border-radius: 10px;
 }
 
-.left {
-    float:left;
-}
-
-.right {
-    float: right;
-}
-
-.inline{
-    display: inline-block;
-}
-
 .clearfix {
     content: '';
     clear: both;
@@ -120,7 +108,8 @@ hr {
 .men-foot {
     position: absolute;
     bottom:0;
-    width: calc(100% - 10px)
+    width: calc(100% - 10px);
+    background-color: rgb(5, 5, 5);
 }
 
 .bottone {
@@ -144,6 +133,7 @@ button {
 
 .foto img {
     width: 12vw;
+    position: relative;
 }
 
 .menu-top {
@@ -155,6 +145,7 @@ button {
     margin-right: 10px;
     text-align: center;
     margin-bottom: 10px;
+    position: relative;
 }
 
 .row {
@@ -194,6 +185,14 @@ footer {
 .min-test {
     padding-left: 10px;
     padding-top: 15px;
+}
+
+.foto i {
+    display: none;
+    position:absolute;
+    top: 25%;
+    left: 30%;
+    font-size: 60px;
 }
 
 .cent-foot{
@@ -365,4 +364,25 @@ p a, p h3 {
 
 #small {
     display: none;;
+}
+
+.linea {
+    width: 20px;
+    height: 3px;
+    background-color: chartreuse;
+    display: none;
+    position: relative;
+    left:45%;
+}
+
+.menu-top ul li:hover div {
+    display: block;
+}
+
+.foto img:hover {
+opacity: 0.9;
+}
+
+.foto:hover i {
+    display: block;
 }
