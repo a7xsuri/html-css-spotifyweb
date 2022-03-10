@@ -312,6 +312,10 @@ span {
     padding-left: 0;
 }
 
+.men-foot h3 {
+    display: inline;
+}
+
 .circle img {
     width: 12vw;
     border-radius: 100px;
@@ -336,9 +340,25 @@ button:hover {
 
 .mini-sim{
     width: 100px;
+    padding-top: 15px;
 }
 
 .mini-sim i {
     padding-bottom: 0;
 }
 
+p img, .men-foot img {
+    width: 10%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+p a, p h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#profile {
+    background-color: gray;
+    border-radius: 10px;
+}

@@ -26,6 +26,7 @@
 
     .mini-sim{
         width: 20px;
+        padding-top: 0;
     }
 
     .left-foot, .right-foot {
@@ -44,7 +45,7 @@
         padding-right: 5px;
     }
 
-    .mini-test{
+    .min-test{
         padding-left: 5px;
     }
 }
@@ -97,7 +98,7 @@
         padding-right: 5px;
     }
 
-    .mini-test{
+    .min-test{
         padding-left: 5px;
     }
 }
