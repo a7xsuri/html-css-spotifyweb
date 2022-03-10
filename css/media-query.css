@@ -1,3 +1,95 @@
+@media screen and (max-width:576px) {
+    .menu-top ul {
+        flex-wrap: wrap
+    }
+
+    aside{
+        width: 50px;
+    }
+
+    .sidebar {
+        visibility: hidden;
+        padding-left: 0;
+    }
+
+    .sidebar img {
+        visibility: visible;
+        width: 100%;
+    }
+
+    nav.top, main, .row {
+        width: calc(100vw - 50px);
+    }
+
+    #profile {
+        margin-left: 5px;
+    }
+
+    .foto, .circle, .foto img, .circle img {
+        width: 37vw;
+    }
+
+    .left-foot img {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    i {
+        font-size: 13px;
+    }
+
+    .simboli i:nth-child(3){
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 13px;
+    }
+
+    .mini-sim{
+        width: 20px;
+        padding-top: 0;
+    }
+
+    .left-foot, .right-foot {
+        width: 30%;
+    }
+
+    .cent-foot{
+        width: 40%;
+    }
+
+    .bar-mus {
+        width: 60%;
+    }
+
+    .simbolini{
+        padding-right: 5px;
+    }
+
+    .simbolini i {
+        padding-left: 0;
+    }
+
+    .min-test{
+        padding-left: 5px;
+        padding-top: 0;
+    }
+
+    .cent-foot-down p {
+        font-size: 14px;
+    }
+
+    #small{
+        display: block;
+    }
+
+    #logo{
+        display: none;
+    }
+}
+
+
 @media screen and (min-width:576px) and (max-width:768px) {
     .menu-top ul {
         flex-wrap: wrap

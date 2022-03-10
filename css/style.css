@@ -360,5 +360,9 @@ p a, p h3 {
 
 #profile {
     background-color: gray;
-    border-radius: 10px;
+    border-radius: 25px;
+}
+
+#small {
+    display: none;;
 }
