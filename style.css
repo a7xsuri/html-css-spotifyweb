@@ -31,6 +31,11 @@ body {
     color: white;
 }
 
+section {
+    margin-top: 40px;
+    padding-left: 10px;
+}
+
 .wrapper{
     height: 100vh;
     width: 100%;
@@ -50,7 +55,7 @@ aside {
 
 main {
     width: calc(100% - 230px);
-    background-color: orange;
+    background-color: rgb(50, 42, 42);
     height: 100%;
 }
 
@@ -81,6 +86,9 @@ ul {
 
 .menu-top ul {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 .sidebar{
@@ -99,6 +107,10 @@ h3 {
     color:white;
 }
 
+h2 {
+    padding-bottom: 5px;
+}
+
 hr {
     color:white;
     margin:10px 0;
@@ -108,7 +120,7 @@ hr {
 .men-foot {
     position: absolute;
     bottom:0;
-    width: 100%;
+    width: calc(100% - 10px)
 }
 
 .bottone {
@@ -134,29 +146,22 @@ button {
     width: 13vw;
 }
 
-.menu-top ul li {
-    display: inline-block;
-    padding:5px 0;
-}
-
 .menu-top {
     width: 100%;
 }
 
-.foto {
+.foto, .circle {
     width: 13vw;
     margin-right: 10px;
-}
-
-.foto p {
-    width: 30px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .row {
-    padding-left: 10px;
     padding-top:20px;
     width: calc(100vw - 230px);
     display: flex;
+    flex-wrap: wrap;
 }
 
 .row h2 {
@@ -166,21 +171,24 @@ button {
 
 footer {
     height: 90px;
+    position: fixed;
 }
 
 .player-bar{
-    width: calc(100vw - 20px);
+    width: 100vw;
     display: flex;
+    height: 90px;
 }
 
 .left-foot {
-    width: calc(100% / 3);
+    width: 30%;
     padding: 20px 15px;
     display: flex;
 }
 
 .left-foot img {
-    width: 15%;
+    width: 5vw;
+    height: 10vh;
 }
 
 .min-test {
@@ -189,26 +197,35 @@ footer {
 }
 
 .cent-foot{
-    width: calc(100% / 3);
+    width: 40%;
 }
 
 i {
-    font-size: 25px;
+    font-size: 20px;
     padding:10px 10px;
+    vertical-align: middle;
 }
 
 .bar-mus{
-    width:80%;
+    width:75%;
     height: 4px;
-    background-color: white;
+    background-color: rgba(128, 128, 128, 0.63);
     display: inline-block;
 }
 
 .bar-mus-trasc{
     width: 20%;
     height: 4px;
-    background-color: blue;
+    background-color: rgb(128, 128, 128);
     position: relative;
+}
+
+.bar-mus:hover .punto, .min-bar-mus:hover .punto{
+    display: block;
+}
+
+.bar-mus:hover .bar-mus-trasc, .min-bar-mus:hover .min-bar-mus-trasc{
+    background-color: chartreuse;
 }
 
 .cent-foot-down p {
@@ -243,7 +260,7 @@ span {
 }
 
 .right-foot {
-    width: calc(100% / 3);
+    width:30%;
     position: relative;
     right: 0;
 }
@@ -256,19 +273,20 @@ span {
     width: 100%;
     text-align: end;
     padding-right: 15px;
+    padding-top: 30px;
 }
 
 .min-bar-mus{
     width:30%;
     height: 4px;
-    background-color: white;
+    background-color: rgba(128, 128, 128, 0.63);
     display: inline-block;
 }
 
 .min-bar-mus-trasc{
-    width: 10%;
+    width: 30%;
     height: 4px;
-    background-color: blue;
+    background-color: rgb(128, 128, 128);
     position: relative;
 }
 
@@ -287,19 +305,11 @@ span {
     position: absolute;
     right: -5px;
     bottom: -4px;
-    
+    display: none;
 }
 
 .men-foot i {
     padding-left: 0;
-}
-
-i {
-    vertical-align: middle;
-}
-
-.circle {
-    margin-right: 10px;
 }
 
 .circle img {
@@ -310,4 +320,75 @@ i {
 
 .min-top img{
     width: 15%;
+}
+
+.men-foot p i {
+    font-size: 15px;
+}
+
+.simboli i:nth-child(3){
+    font-size: 40px;
+}
+
+button:hover {
+    font-size: 15px;
+}
+
+.mini-sim{
+    width: 50px;
+}
+
+.mini-sim i {
+    padding-bottom: 0;
+}
+
+@media screen and (max-width:576px) {
+    .menu-top ul {
+        flex-wrap: wrap
+    }
+
+    .foto, .circle, .foto img, .circle img {
+        width: 27vw;
+    }
+
+    .left-foot img {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    i {
+        font-size: 13px;
+    }
+
+    .simboli i:nth-child(3){
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 13px;
+    }
+
+    .mini-sim{
+        width: 20px;
+    }
+
+    .left-foot, .right-foot {
+        width: 30%;
+    }
+
+    .cent-foot{
+        width: 40%;
+    }
+
+    .bar-mus {
+        width: 60%;
+    }
+
+    .simbolini{
+        padding-right: 5px;
+    }
+
+    .mini-test{
+        padding-left: 5px;
+    }
 }
