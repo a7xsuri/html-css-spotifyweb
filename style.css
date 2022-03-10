@@ -4,6 +4,22 @@
     margin:0;
 }
 
+.border{
+    border-radius: 10px;
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float: right;
+}
+
+.inline{
+    display: inline-block;
+}
+
 .clearfix {
     content: '';
     clear: both;
@@ -68,22 +84,31 @@ ul {
 }
 
 .sidebar{
-padding-left: 10px;
-color: gray;
-padding-top: 20px;
+    padding-left: 10px;
+    color: gray;
+    padding-top: 20px;
+    position: relative;
+    height: 100%;
 }
 
 .min-top {
     padding-top: 15px;
 }
 
-.min-top p, li {
-height:5vh;
-vertical-align: middle;
+h3 {
+    color:white;
 }
 
 hr {
     color:white;
+    margin:10px 0;
+    width: 90%;
+}
+
+.men-foot {
+    position: absolute;
+    bottom:0;
+    width: 100%;
 }
 
 .bottone {
@@ -107,7 +132,6 @@ button {
 
 .foto img {
     width: 13vw;
-    padding-right: 10px;
 }
 
 .menu-top ul li {
@@ -120,12 +144,8 @@ button {
 }
 
 .foto {
-    float: left;
     width: 13vw;
-}
-
-h5 {
-    width: 30px;
+    margin-right: 10px;
 }
 
 .foto p {
@@ -136,6 +156,7 @@ h5 {
     padding-left: 10px;
     padding-top:20px;
     width: calc(100vw - 230px);
+    display: flex;
 }
 
 .row h2 {
@@ -148,26 +169,27 @@ footer {
 }
 
 .player-bar{
-    width: 100vw;
+    width: calc(100vw - 20px);
+    display: flex;
 }
 
 .left-foot {
     width: calc(100% / 3);
-    float: left;
+    padding: 20px 15px;
+    display: flex;
 }
 
 .left-foot img {
-    width: 10%;
-    float: left;
+    width: 15%;
 }
 
-.min-test{
-    float: left;
+.min-test {
+    padding-left: 10px;
+    padding-top: 15px;
 }
 
-.cent-foot-up{
+.cent-foot{
     width: calc(100% / 3);
-    float: left;
 }
 
 i {
@@ -176,7 +198,7 @@ i {
 }
 
 .bar-mus{
-    width:50%;
+    width:80%;
     height: 4px;
     background-color: white;
     display: inline-block;
@@ -186,8 +208,106 @@ i {
     width: 20%;
     height: 4px;
     background-color: blue;
+    position: relative;
 }
 
 .cent-foot-down p {
     display: inline-block;
+    padding: 0 5px;
+}
+
+.cent-foot-down {
+    text-align: center;
+}
+
+span {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: gray;
+    color: black;
+    width: 20px;
+    padding: 3px 10px;
+    vertical-align: middle;
+}
+
+.men-cent h4 {
+    padding: 10px 0;
+}
+
+.men-cent li {
+    padding-bottom: 10px;
+}
+
+.men-cent p {
+    padding-bottom: 10px;
+}
+
+.right-foot {
+    width: calc(100% / 3);
+    position: relative;
+    right: 0;
+}
+
+.simboli {
+    text-align: center;
+}
+
+.simbolini {
+    width: 100%;
+    text-align: end;
+    padding-right: 15px;
+}
+
+.min-bar-mus{
+    width:30%;
+    height: 4px;
+    background-color: white;
+    display: inline-block;
+}
+
+.min-bar-mus-trasc{
+    width: 10%;
+    height: 4px;
+    background-color: blue;
+    position: relative;
+}
+
+.foto-circle {
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    border-radius: 100px;
+}
+
+.punto{
+    width: 12px;
+    height: 12px;
+    background: azure;
+    border-radius: 5px;
+    position: absolute;
+    right: -5px;
+    bottom: -4px;
+    
+}
+
+.men-foot i {
+    padding-left: 0;
+}
+
+i {
+    vertical-align: middle;
+}
+
+.circle {
+    margin-right: 10px;
+}
+
+.circle img {
+    width: 13vw;
+    border-radius: 100px;
+
+}
+
+.min-top img{
+    width: 15%;
 }
