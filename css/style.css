@@ -163,6 +163,7 @@ button {
 footer {
     height: 90px;
     position: fixed;
+    background-color: black;
 }
 
 .player-bar{
@@ -385,4 +386,9 @@ opacity: 0.9;
 
 .foto:hover i {
     display: block;
+}
+
+.men-cent ul {
+    height:30vh;
+    overflow-y: scroll;
 }
