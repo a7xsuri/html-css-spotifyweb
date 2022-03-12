@@ -83,8 +83,10 @@ ul {
     padding-left: 10px;
     color: gray;
     padding-top: 20px;
-    position: relative;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .min-top {
@@ -106,8 +108,6 @@ hr {
 }
 
 .men-foot {
-    position: absolute;
-    bottom:0;
     width: calc(100% - 10px);
     background-color: rgb(5, 5, 5);
 }
@@ -371,13 +371,14 @@ p a, p h3 {
     width: 20px;
     height: 3px;
     background-color: chartreuse;
-    display: none;
+    visibility: hidden;
     position: relative;
-    left:45%;
+    left:50%;
+    transform: translate(-50%);
 }
 
 .menu-top ul li:hover div {
-    display: block;
+    visibility: visible;
 }
 
 .foto img:hover {
